@@ -1,0 +1,86 @@
+.visit{
+    background: url(../img/bg_our_salons.png);
+    height: 100%;
+    background-position: center;
+    padding: 100px 0;
+    text-align: center;
+    & h4{
+        font-family: Gilroy;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 21px;
+        line-height: 29px;
+        text-align: center;
+        color: #FFFFFF;
+        margin-bottom: 15px;
+    }
+    & h3{
+        font-family: NotoSerif-bold;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 41px;
+        text-align: center;
+        color: #FFFFFF;
+        margin-bottom: 45px;
+    }
+    & .visit__text{
+        max-width: 730px;
+        font-family: Gilroy;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 25px;
+        text-align: center;
+        color: #FFFFFF;
+        margin: 0 auto;
+        margin-bottom: 60px;
+        padding: 0 20px;
+    }
+    & .visit__btn{
+        width: 224px;
+        height: 51px;
+        transition: 0.5s;
+        font-family: Gilroy;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+        text-align: center;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #333333;
+    }
+    & .visit__btn:hover{
+        background: #333333;
+        transition: 0.3s;
+        box-shadow: 0 14px 28px rgba(251, 253, 253, 0.335), 0 10px 10px rgba(250, 248, 248, 0.514);
+        color: #FFFFFF;
+    }
+}
+@media (max-width:990px) {
+    .container{
+        max-width: 960px;
+    }
+    .visit{
+        padding: 50px 20px;
+
+    }
+}
+@media (max-width:576px) {
+    .container{
+        max-width: 540px;
+    }
+    .visit{
+        padding: 50px 20px;
+        
+    }
+}
+@media (max-width:530px) {
+    .container{
+        max-width: 460px;
+    }
+    .visit{
+        padding: 50px 20px;
+    }
+}

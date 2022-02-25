@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1110px;
+    margin: 0 auto;
+}
+@font-face {
+    font-family: Gilroy;
+    src: url(../fonts/gillroy/gilroy-regular.ttf);
+    }
+@font-face {
+    font-family: NotoSerif-Bold;
+    src: url(../fonts/Noto/NotoSerif-Bold.ttf);
+    }
+
+@import'_header';
+@import'_catalog';
+@import'_visit';
+@import'_articles';
+@import'_gallery';
+@import'_form';
+@import'_footer';
